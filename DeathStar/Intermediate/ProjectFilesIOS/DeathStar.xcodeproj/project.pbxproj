@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C4E399CAD3837ECD0F8CBD6 /* DefaultEditor.ini in Sources */ = {isa = PBXBuildFile; fileRef = 4E6FC01DBECF6EAFE3EBE34A /* DefaultEditor.ini */; };
+		91F6DDE87770C5A225363F8F /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A6E3CBDFC1C4D72A426E5 /* DefaultEngine.ini */; };
+		39A799C779365B4E9F469821 /* DefaultGame.ini in Sources */ = {isa = PBXBuildFile; fileRef = 6EF1EB4E659A8BF798C986A9 /* DefaultGame.ini */; };
+		1CA02256E208777020EF3683 /* DefaultInput.ini in Sources */ = {isa = PBXBuildFile; fileRef = 5873D72E80F5FC38B15BAE4B /* DefaultInput.ini */; };
+		1A0C466F5D75E4D8AD6765D5 /* DeathStar.uproject in Sources */ = {isa = PBXBuildFile; fileRef = F519DBC82B7C343B37F88500 /* DeathStar.uproject */; };
+		BD50F14F554ACC740990509D /* DeathStar.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 7D66F81A65DF60C0545C7169 /* DeathStar.Build.cs */; };
+		A67F7D5E9ACA5BAAD530EC43 /* DeathStar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA8A9BE838AB5F6E134858F9 /* DeathStar.cpp */; };
+		EC5E64005393B30D4A402975 /* DeathStar.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = CF746C0FF4BEC24D1E04EB4B /* DeathStar.Target.cs */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E6FC01DBECF6EAFE3EBE34A /* DefaultEditor.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEditor.ini"; path = "../../Config/DefaultEditor.ini"; sourceTree = SOURCE_ROOT; };
+		9F1A6E3CBDFC1C4D72A426E5 /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		6EF1EB4E659A8BF798C986A9 /* DefaultGame.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultGame.ini"; path = "../../Config/DefaultGame.ini"; sourceTree = SOURCE_ROOT; };
+		5873D72E80F5FC38B15BAE4B /* DefaultInput.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultInput.ini"; path = "../../Config/DefaultInput.ini"; sourceTree = SOURCE_ROOT; };
+		F519DBC82B7C343B37F88500 /* DeathStar.uproject */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DeathStar.uproject"; path = "../../DeathStar.uproject"; sourceTree = SOURCE_ROOT; };
+		7D66F81A65DF60C0545C7169 /* DeathStar.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DeathStar.Build.cs"; path = "../Source/DeathStar.Build.cs"; sourceTree = SOURCE_ROOT; };
+		EA8A9BE838AB5F6E134858F9 /* DeathStar.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "DeathStar.cpp"; path = "../Source/DeathStar.cpp"; sourceTree = SOURCE_ROOT; };
+		CF746C0FF4BEC24D1E04EB4B /* DeathStar.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DeathStar.Target.cs"; path = "../Source/DeathStar.Target.cs"; sourceTree = SOURCE_ROOT; };
+		8AD55BDB22172FC8DBC0F9A5 /* DeathStar */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = DeathStar; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA123121F7E590B81DA11329 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67F7D5E9ACA5BAAD530EC43 /* DeathStar.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	34947D63512E3AA385874349 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		B61F8AF8ECF276F9C4AE4259 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAE84169B2F4A357C7635315 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0770768FDE3F6A508346D445;
+			remoteInfo = "DeathStar_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXGroup section */
+		5689C00FDA641125DB5D1D70 = {
+			isa = PBXGroup;
+			children = (
+				F0FB5BF3D409EFB089DAD57D /* Config */,
+				3A8A246C8F78C91A4F25015C /* Intermediate */,
+				F519DBC82B7C343B37F88500 /* DeathStar.uproject */,
+				7FC942314199B319940583A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0FB5BF3D409EFB089DAD57D = {
+			isa = PBXGroup;
+			children = (
+				4E6FC01DBECF6EAFE3EBE34A /* DefaultEditor.ini */,
+				9F1A6E3CBDFC1C4D72A426E5 /* DefaultEngine.ini */,
+				6EF1EB4E659A8BF798C986A9 /* DefaultGame.ini */,
+				5873D72E80F5FC38B15BAE4B /* DefaultInput.ini */,
+			);
+			name = "Config";
+			path = "/Users/Florian/Desktop/DeathStar copie/Config";
+			sourceTree = "<absolute>";
+		};
+		3A8A246C8F78C91A4F25015C = {
+			isa = PBXGroup;
+			children = (
+				F7506EBC712A2047387771A7 /* Source */,
+			);
+			name = "Intermediate";
+			path = "/Users/Florian/Desktop/DeathStar copie/Intermediate";
+			sourceTree = "<absolute>";
+		};
+		F7506EBC712A2047387771A7 = {
+			isa = PBXGroup;
+			children = (
+				7D66F81A65DF60C0545C7169 /* DeathStar.Build.cs */,
+				EA8A9BE838AB5F6E134858F9 /* DeathStar.cpp */,
+				CF746C0FF4BEC24D1E04EB4B /* DeathStar.Target.cs */,
+			);
+			name = "Source";
+			path = "/Users/Florian/Desktop/DeathStar copie/Intermediate/Source";
+			sourceTree = "<absolute>";
+		};
+		7FC942314199B319940583A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AD55BDB22172FC8DBC0F9A5 /* DeathStar */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		0770768FDE3F6A508346D445 /* DeathStar_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG) \"/Users/Florian/Desktop/DeathStar copie/DeathStar.uproject\"";
+			buildConfigurationList = ED416D4787710D0401AFA812 /* Build configuration list for PBXLegacyTarget "DeathStar_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/Shared/Epic Games/UE_4.26/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/Shared/Epic Games/UE_4.26";
+			dependencies = (
+			);
+			name = "DeathStar_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "DeathStar_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		C64793ACE910A45D2683A149 /* DeathStar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80C548B647839593AFE6BD2 /* Build configuration list for PBXNativeTarget "DeathStar" */;
+			buildPhases = (
+				34947D63512E3AA385874349 /* Embed App Extensions */, 
+				9CEDC7B73DB10B51051D14C7 /* Shell Script */, 
+			);
+			dependencies = (
+			);
+			name = "DeathStar";
+			passBuildSettingsInEnvironment = 1;
+			productName = "DeathStar";
+			productReference = "8AD55BDB22172FC8DBC0F9A5";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		3BC93EC758C033F525E4F07B /* DeathStar_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CE71A8444F2D5440016EEE1 /* Build configuration list for PBXNativeTarget "DeathStar_Index" */;
+			buildPhases = (
+				FA123121F7E590B81DA11329 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "DeathStar_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "DeathStar_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAE84169B2F4A357C7635315 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					C64793ACE910A45D2683A149 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 00A2F7C212DF1F0850F1CA9F /* Build configuration list for PBXProject "DeathStar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 5689C00FDA641125DB5D1D70;
+			productRefGroup = 7FC942314199B319940583A2;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			C64793ACE910A45D2683A149 /* DeathStar */,
+			0770768FDE3F6A508346D445 /* DeathStar_Build */,
+			3BC93EC758C033F525E4F07B /* DeathStar_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		32F02DF6CC6452DDB618FDAD /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		E9A4852400A1F74A6C23D8F3 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		1D9F9009EC36CE823FFE1A03 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		1B50C766CBE01D73CFE8840A /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DeathStar";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 7DT66A3YFF;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Florian Clenet (7DT66A3YFF)";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "c94f0c45-6c07-48a8-b8c4-71aa83e32887";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = DeathStarPFE;
+				"PRODUCT_NAME[sdk=macosx*]" = "DeathStar-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/Florian/Desktop/DeathStar copie/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/Florian/Desktop/DeathStar copie/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/Florian/Desktop/DeathStar copie/Intermediate/IOS/DeathStar-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/Florian/Desktop/DeathStar copie/Intermediate/IOS/DeathStar.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.26/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		E9E547F4F3E62D651F666587 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DeathStar";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 7DT66A3YFF;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Florian Clenet (7DT66A3YFF)";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "c94f0c45-6c07-48a8-b8c4-71aa83e32887";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = DeathStarPFE;
+				"PRODUCT_NAME[sdk=macosx*]" = "DeathStar";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/Florian/Desktop/DeathStar copie/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/Florian/Desktop/DeathStar copie/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/Florian/Desktop/DeathStar copie/Intermediate/IOS/DeathStar-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/Florian/Desktop/DeathStar copie/Intermediate/IOS/DeathStar.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.26/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		628DF56C09D5B55C6255B8F3 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DeathStar";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 7DT66A3YFF;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Florian Clenet (7DT66A3YFF)";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "c94f0c45-6c07-48a8-b8c4-71aa83e32887";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = DeathStarPFE;
+				"PRODUCT_NAME[sdk=macosx*]" = "DeathStar-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/Florian/Desktop/DeathStar copie/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/Florian/Desktop/DeathStar copie/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/Florian/Desktop/DeathStar copie/Intermediate/IOS/DeathStar-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/Florian/Desktop/DeathStar copie/Intermediate/IOS/DeathStar.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.26/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		1DD97A6C96C124167FB63160 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DeathStar";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		0AFC3E6A54FF19023D8C83F1 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DeathStar";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		D14FA63872881B27C6F04CB5 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DeathStar";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		0044D62034659384F01A9BED /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DeathStar";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 7DT66A3YFF;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Florian Clenet (7DT66A3YFF)";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "c94f0c45-6c07-48a8-b8c4-71aa83e32887";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = DeathStarPFE;
+				"PRODUCT_NAME[sdk=macosx*]" = "DeathStar-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/Florian/Desktop/DeathStar copie/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/Florian/Desktop/DeathStar copie/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/Florian/Desktop/DeathStar copie/Intermediate/IOS/DeathStar-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/Florian/Desktop/DeathStar copie/Intermediate/IOS/DeathStar.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.26/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		3C0015DEBEE6F4DD6BE2364E /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DeathStar";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 7DT66A3YFF;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Florian Clenet (7DT66A3YFF)";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "c94f0c45-6c07-48a8-b8c4-71aa83e32887";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = DeathStarPFE;
+				"PRODUCT_NAME[sdk=macosx*]" = "DeathStar";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/Florian/Desktop/DeathStar copie/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/Florian/Desktop/DeathStar copie/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/Florian/Desktop/DeathStar copie/Intermediate/IOS/DeathStar-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/Florian/Desktop/DeathStar copie/Intermediate/IOS/DeathStar.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.26/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		6F101506BE00B23DE6117B30 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DeathStar";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 7DT66A3YFF;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Florian Clenet (7DT66A3YFF)";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "c94f0c45-6c07-48a8-b8c4-71aa83e32887";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = DeathStarPFE;
+				"PRODUCT_NAME[sdk=macosx*]" = "DeathStar-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/Florian/Desktop/DeathStar copie/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/Florian/Desktop/DeathStar copie/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/Florian/Desktop/DeathStar copie/Intermediate/IOS/DeathStar-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/Florian/Desktop/DeathStar copie/Intermediate/IOS/DeathStar.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.26/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00A2F7C212DF1F0850F1CA9F /* Build configuration list for PBXProject "DeathStar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F02DF6CC6452DDB618FDAD /* "DebugGame" */,
+				E9A4852400A1F74A6C23D8F3 /* "Development" */,
+				1D9F9009EC36CE823FFE1A03 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		ED416D4787710D0401AFA812 /* Build configuration list for PBXLegacyTarget "DeathStar_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD97A6C96C124167FB63160 /* "DebugGame" */,
+				0AFC3E6A54FF19023D8C83F1 /* "Development" */,
+				D14FA63872881B27C6F04CB5 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		D80C548B647839593AFE6BD2 /* Build configuration list for PBXNativeTarget "DeathStar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B50C766CBE01D73CFE8840A /* "DebugGame" */,
+				E9E547F4F3E62D651F666587 /* "Development" */,
+				628DF56C09D5B55C6255B8F3 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		7CE71A8444F2D5440016EEE1 /* Build configuration list for PBXNativeTarget "DeathStar_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0044D62034659384F01A9BED /* "DebugGame" */,
+				3C0015DEBEE6F4DD6BE2364E /* "Development" */,
+				6F101506BE00B23DE6117B30 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+/* Begin PBXShellScriptBuildPhase section */
+		9CEDC7B73DB10B51051D14C7 /* Sign Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			name = "Sign Manual Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nIFS=$'\\n'\n\nif [ $PLATFORM_NAME = iphoneos ] || [ $PLATFORM_NAME = tvos ]; then \n\tFRAMEWORK_DIR=$TARGET_BUILD_DIR/$EXECUTABLE_FOLDER_PATH/Frameworks\n\tfor FRAMEWORK in ${FRAMEWORK_DIR}/*.framework; do\n\t\t[ -d \"${FRAMEWORK}\" ] || continue\n\t\techo Codesigning ${FRAMEWORK}\n\t\tcodesign --force --sign ${EXPANDED_CODE_SIGN_IDENTITY} --verbose --preserve-metadata=identifier,entitlements,flags --timestamp=none \"${FRAMEWORK}\"\n\tdone\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+	};
+	rootObject = AAE84169B2F4A357C7635315 /* Project object */;
+}
