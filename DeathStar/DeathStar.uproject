@@ -66,6 +66,11 @@
 		{
 			"Name": "WmfMedia",
 			"Enabled": false
+		},
+		{
+			"Name": "AnimatedTexture",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/4e16df6426df4096aff1f67e3084b929"
 		}
 	]
 }
